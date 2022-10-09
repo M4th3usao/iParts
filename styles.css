@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-image: url(/images/mecedes-s-background.jpg);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    height: 900px;
+}
+
+.navbar-home{
+    padding-top: 25px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#options-nav{
+    padding: 20px;
+}
+
+#options-nav a{
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-area{
+    padding-left: 40px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.input-area input{
+    border-style: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 40px;
+
+    font-family: 'Montserrat';
+    font-size: 14px;
+    padding-left: 10px;
+
+}
+/* --------------- Sobre nos ------------------ */
+#sobre-container{
+    padding: 40px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+#sobre-container img{
+    width: 580px;
+    height: 425px;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 200%;
+    padding-right: 50px;
+    padding-left: 50px;
+} 
+
+/*---------------- Produtos --------------------*/
+#produtos-section{
+    padding-left: 40px;
+
+}
+
+.cards-produtos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 15px;
+}
+
+/*---------------Footer-----------------*/
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    margin-top: 40px;
+}
+.footer:p{
+    color:#8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom:  18px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 250px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+@media screen {
+    
+}
