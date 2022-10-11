@@ -265,3 +265,31 @@ ul{
         height: 470px;
     }
 }
+@media screen and (max-width: 500px){
+    header{
+        background-repeat: no-repeat;
+        /* background-size: contain; */
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+    
+    .header-pages{
+        background-repeat: no-repeat;
+        /* background-size: contain; */
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .navbar-home{
+        /* flex-wrap: wrap; */
+    }
+
+    .col-2 img{
+        /* max-width: 200%; */
+        padding-right: 100px;
+        padding-left: 25px;
+        width: 100% !important;
+    } 
+}
