@@ -265,7 +265,7 @@ ul{
         height: 470px;
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     header{
         background-repeat: no-repeat;
         /* background-size: contain; */
