@@ -159,6 +159,15 @@ header{
     margin: 15px;
 }
 
+/* --------------Conta----------------- */
+
+.form-conta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    padding-left: 50px;
+}
 
 /*---------------Footer-----------------*/
 .footer{
@@ -221,10 +230,19 @@ ul{
         padding-top: 5px;
     }
 }
+@media screen and (max-width: 1335px){
+    .header-pages{
+        height: 680px;
+    }
+}
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1150px){
     .col-3 img{
         padding: 20px;
+        width: 100% !important;
+    }
+    .header-pages{
+        height: 500px;
     }
 
 }
@@ -240,5 +258,10 @@ ul{
 
     .col-3 img{
         padding: 20px;
+    }
+}
+@media screen and (max-width: 940px){
+    .header-pages{
+        height: 470px;
     }
 }
